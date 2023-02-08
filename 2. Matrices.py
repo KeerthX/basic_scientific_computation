@@ -20,3 +20,5 @@ c = np.dot(a,b)
 d = a @ b # Using the "@" operation 
 print(c) # c automatically becomes a matrix 
 print(d) # d automatically becomes a matrix 
+
+#We have done this for a Square nxn matrix and this operation particularly the multiplication operation 
