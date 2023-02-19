@@ -21,3 +21,20 @@ plt.show()
 
 plt.stem(x)
 plt.show()
+
+#Lets now see how to visualize a matrix in Python
+
+x = np.array([[1,2,3],[1,2,4],[1,1,1]])
+plt.plot(x)
+plt.show()
+
+#This method shows each plot as a different row in the graph
+#Now let us do an image visualization of this graph
+
+plt.imshow(x)
+plt.show()
+
+#You can play around with the values of the elements and depending on that the colour will change
+
+
+
