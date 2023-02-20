@@ -31,6 +31,7 @@ plt.show()
 #This method shows each plot as a different row in the graph
 #Now let us do an image visualization of this graph
 
+x = np.array([[1,2,3],[13,2,4],[15,16,13]])
 plt.imshow(x)
 plt.show()
 
