@@ -39,3 +39,13 @@ amp_2 = np.sin(time)/np.cos(time)
 plt.plot(time,amp_2)
 plt.show()
 
+#Lets also look at hyperbolic functions 
+time = np.arange(-10,10,0.01)
+
+sin_hyp = np.sinh(time)
+cos_hyp = np.cosh(time)
+
+plt.plot(time,sin_hyp)
+plt.show()
+plt.plot(time,cos_hyp)
+plt.show()
