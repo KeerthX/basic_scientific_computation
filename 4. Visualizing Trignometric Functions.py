@@ -49,3 +49,9 @@ plt.plot(time,sin_hyp)
 plt.show()
 plt.plot(time,cos_hyp)
 plt.show()
+
+#Now lets make a combination of several trignometric functions in the same
+time = np.arange(-10,10,0.1)
+comb_graph = np.cos(time)+(np.sin(time)* np.tan(time))
+plt.plot(time,comb_graph)
+plt.show()
